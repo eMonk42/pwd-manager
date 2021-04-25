@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+    <div id="wrapper" class="dnone">
+        <!--<div class="div">
+            <label for="masterInput">Masterpasswort:</label>
+            <input type="text" class="form-control" id="masterpassword" value=""/>
+        </div>-->
+
+        <div class="div">
+            <label for="domainInput">Domain:</label>
+            <input type="text" class="form-control" id="domain" />
+        </div>
+
+        <div class="div">
+            <button id="generateButton" type="submit" class="btn btn-primary">Generate!</button>
+            <input id="length" type="number" value="10" min="8" max="30"/>
+        </div>
+
+        <div class="div">
+            <input type="text" value="your password" id="passwordoutput">
+        </div>
+
+        <div class="div">
+            <a>Settings</a>
+        </div>
+    </div>
+    <script src="javascript/app.js"></script>
+</body>
+</html>

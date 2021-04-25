@@ -1,0 +1,29 @@
+@import 'fonts.css';
+
+body {
+  background-color: lightblue;
+  padding-top: 20%;
+}
+
+.div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#length {
+  width: 35px;
+}
+
+#wrapper {
+  /*width: 50%;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dnone {
+  display: none;
+}
